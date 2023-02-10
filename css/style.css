@@ -114,3 +114,10 @@ p {
   margin-right: calc(var(--bs-gutter-x) / -2);
   margin-left: calc(var(--bs-gutter-x) / -2);
 }
+@media (max-width: 576px) {
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
